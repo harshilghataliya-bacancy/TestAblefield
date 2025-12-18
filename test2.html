@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page 2 - WCAG Violations</title>
+</head>
+<body>
+    <h1>Test Page 2 - Accessibility Testing</h1>
+    
+    <!-- Missing alt text on images -->
+    <img src="banner.jpg">
+    <img src="logo.png">
+    
+    <!-- Links with poor descriptions -->
+    <a href="#">Click here</a>
+    <a href="#">Read more</a>
+    <a>No href attribute</a>
+    
+    <!-- Form without labels -->
+    <form>
+        <input type="text" id="username">
+        <input type="password" id="pass">
+        <input type="email">
+        <input type="submit" value="Submit">
+    </form>
+    
+    <!-- Poor color contrast -->
+    <div style="color: lightgray; background-color: white;">Hard to read text</div>
+    <div style="color: yellow; background-color: white;">Poor contrast</div>
+    
+    <!-- Tables without headers -->
+    <table>
+        <tr><td>Name</td><td>Age</td><td>City</td></tr>
+        <tr><td>John</td><td>25</td><td>NYC</td></tr>
+        <tr><td>Jane</td><td>30</td><td>LA</td></tr>
+    </table>
+    
+    <!-- Section 1 -->
+    <div>
+        <h2>Section 1 Content</h2>
+        <img src="image1.jpg">
+        <p>This is some text content.</p>
+        <a href="#">Link 1</a>
+        <button></button>
+        <input type="checkbox"> Option A
+        <input type="radio"> Option B
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+        <table>
+            <tr><td>Data 1</td><td>Data 2</td></tr>
+            <tr><td>Data 3</td><td>Data 4</td></tr>
+        </table>
+        <div style="color: red;">Red text without proper contrast</div>
+        <span style="font-size: 40px;">Very large text</span>
+    </div>
+    
+    <!-- Section 2 -->
+    <div>
+        <h2>Section 2 Content</h2>
+        <img src="image2.jpg">
+        <p>More text content here.</p>
+        <a href="">Empty href</a>
+        <button>Button</button>
+        <input type="checkbox"> Option C
+        <input type="radio"> Option D
+        <ul>
+            <li>List item 4</li>
+            <li>List item 5</li>
+            <li>List item 6</li>
+        </ul>
+        <table>
+            <tr><td>Data 5</td><td>Data 6</td></tr>
+            <tr><td>Data 7</td><td>Data 8</td></tr>
+        </table>
+        <div style="color: green;">Green text</div>
+        <span style="font-size: 35px;">Large text</span>
+    </div>
+    
+    <!-- Section 3 -->
+    <div>
+        <h2>Section 3 Content</h2>
+        <img src="image3.jpg">
+        <p>Additional text content.</p>
+        <a href="#"></a>
+        <button>Go</button>
+        <input type="checkbox"> Option E
+        <input type="radio"> Option F
+        <ul>
+            <li>List item 7</li>
+            <li>List item 8</li>
+            <li>List item 9</li>
+        </ul>
+        <table>
+            <tr><td>Data 9</td><td>Data 10</td></tr>
+            <tr><td>Data 11</td><td>Data 12</td></tr>
+        </table>
+        <div style="color: blue;">Blue text</div>
+        <span style="font-size: 30px;">Medium large text</span>
+    </div>
+    
+    <!-- Section 4 -->
+    <div>
+        <h2>Section 4 Content</h2>
+        <img src="image4.jpg">
+        <p>Text paragraph 4.</p>
+        <a href="#">More info</a>
+        <button>OK</button>
+        <input type="checkbox"> Option G
+        <input type="radio"> Option H
+        <ul>
+            <li>List item 10</li>
+            <li>List item 11</li>
+            <li>List item 12</li>
+        </ul>
+        <table>
+            <tr><td>Data 13</td><td>Data 14</td></tr>
+            <tr><td>Data 15</td><td>Data 16</td></tr>
+        </table>
+        <div style="color: purple;">Purple text</div>
+        <span style="font-size: 28px;">Slightly large text</span>
+    </div>
+    
+    <!-- Section 5 -->
+    <div>
+        <h2>Section 5 Content</h2>
+        <img src="image5.jpg">
+        <p>Text paragraph 5.</p>
+        <a href="#">Details</a>
+        <button>Next</button>
+        <input type="checkbox"> Option I
+        <input type="radio"> Option J
+        <ul>
+            <li>List item 13</li>
+            <li>List item 14</li>
+            <li>List item 15</li>
+        </ul>
+        <table>
+            <tr><td>Data 17</td><td>Data 18</td></tr>
+            <tr><td>Data 19</td><td>Data 20</td></tr>
+        </table>
+        <div style="color: orange;">Orange text</div>
+        <span style="font-size: 26px;">Medium text</span>
+    </div>
+    
+    <!-- Section 6 -->
+    <div>
+        <h2>Section 6 Content</h2>
+        <img src="image6.jpg">
+        <p>Text paragraph 6.</p>
+        <a href="#">Learn more</a>
+        <button>Previous</button>
+        <input type="checkbox"> Option K
+        <input type="radio"> Option L
+        <ul>
+            <li>List item 16</li>
+            <li>List item 17</li>
+            <li>List item 18</li>
+        </ul>
+        <table>
+            <tr><td>Data 21</td><td>Data 22</td></tr>
+            <tr><td>Data 23</td><td>Data 24</td></tr>
+        </table>
+        <div style="color: pink;">Pink text</div>
+        <span style="font-size: 24px;">Regular text</span>
+    </div>
+    
+    <!-- Section 7 -->
+    <div>
+        <h2>Section 7 Content</h2>
+        <img src="image7.jpg">
+        <p>Text paragraph 7.</p>
+        <a>Missing href</a>
+        <button></button>
+        <input type="checkbox"> Option M
+        <input type="radio"> Option N
+        <ul>
+            <li>List item 19</li>
+            <li>List item 20</li>
+            <li>List item 21</li>
+        </ul>
+        <table>
+            <tr><td>Data 25</td><td>Data 26</td></tr>
+            <tr><td>Data 27</td><td>Data 28</td></tr>
+        </table>
+        <div style="color: brown;">Brown text</div>
+        <span style="font-size: 22px;">Small-medium text</span>
+    </div>
+    
+    <!-- Section 8 -->
+    <div>
+        <h2>Section 8 Content</h2>
+        <img src="image8.jpg">
+        <p>Text paragraph 8.</p>
+        <a href="#">See details</a>
+        <button>Submit</button>
+        <input type="checkbox"> Option O
+        <input type="radio"> Option P
+        <ul>
+            <li>List item 22</li>
+            <li>List item 23</li>
+            <li>List item 24</li>
+        </ul>
+        <table>
+            <tr><td>Data 29</td><td>Data 30</td></tr>
+            <tr><td>Data 31</td><td>Data 32</td></tr>
+        </table>
+        <div style="color: teal;">Teal text</div>
+        <span style="font-size: 20px;">Smaller text</span>
+    </div>
+    
+    <!-- Section 9 -->
+    <div>
+        <h2>Section 9 Content</h2>
+        <img src="image9.jpg">
+        <p>Text paragraph 9.</p>
+        <a href="#">View</a>
+        <button>Cancel</button>
+        <input type="checkbox"> Option Q
+        <input type="radio"> Option R
+        <ul>
+            <li>List item 25</li>
+            <li>List item 26</li>
+            <li>List item 27</li>
+        </ul>
+        <table>
+            <tr><td>Data 33</td><td>Data 34</td></tr>
+            <tr><td>Data 35</td><td>Data 36</td></tr>
+        </table>
+        <div style="color: navy;">Navy text</div>
+        <span style="font-size: 18px;">Small text</span>
+    </div>
+    
+    <!-- Section 10 -->
+    <div>
+        <h2>Section 10 Content</h2>
+        <img src="image10.jpg">
+        <p>Text paragraph 10.</p>
+        <a href="#"></a>
+        <button>Save</button>
+        <input type="checkbox"> Option S
+        <input type="radio"> Option T
+        <ul>
+            <li>List item 28</li>
+            <li>List item 29</li>
+            <li>List item 30</li>
+        </ul>
+        <table>
+            <tr><td>Data 37</td><td>Data 38</td></tr>
+            <tr><td>Data 39</td><td>Data 40</td></tr>
+        </table>
+        <div style="color: maroon;">Maroon text</div>
+        <span style="font-size: 16px;">Tiny text</span>
+    </div>
+    
+    <!-- Section 11 -->
+    <div>
+        <h2>Section 11 Content</h2>
+        <img src="image11.jpg">
+        <p>Text paragraph 11.</p>
+        <a href="#">Open</a>
+        <button>Close</button>
+        <input type="checkbox"> Option U
+        <input type="radio"> Option V
+        <ul>
+            <li>List item 31</li>
+            <li>List item 32</li>
+            <li>List item 33</li>
+        </ul>
+        <table>
+            <tr><td>Data 41</td><td>Data 42</td></tr>
+            <tr><td>Data 43</td><td>Data 44</td></tr>
+        </table>
+        <div style="color: lime;">Lime text</div>
+        <span style="font-size: 40px;">Extra large text</span>
+    </div>
+    
+    <!-- Section 12 -->
+    <div>
+        <h2>Section 12 Content</h2>
+        <img src="image12.jpg">
+        <p>Text paragraph 12.</p>
+        <a href="#">Explore</a>
+        <button>Confirm</button>
+        <input type="checkbox"> Option W
+        <input type="radio"> Option X
+        <ul>
+            <li>List item 34</li>
+            <li>List item 35</li>
+            <li>List item 36</li>
+        </ul>
+        <table>
+            <tr><td>Data 45</td><td>Data 46</td></tr>
+            <tr><td>Data 47</td><td>Data 48</td></tr>
+        </table>
+        <div style="color: olive;">Olive text</div>
+        <span style="font-size: 38px;">Very large text</span>
+    </div>
+    
+    <!-- Section 13 -->
+    <div>
+        <h2>Section 13 Content</h2>
+        <img src="image13.jpg">
+        <p>Text paragraph 13.</p>
+        <a>Broken link</a>
+        <button></button>
+        <input type="checkbox"> Option Y
+        <input type="radio"> Option Z
+        <ul>
+            <li>List item 37</li>
+            <li>List item 38</li>
+            <li>List item 39</li>
+        </ul>
+        <table>
+            <tr><td>Data 49</td><td>Data 50</td></tr>
+            <tr><td>Data 51</td><td>Data 52</td></tr>
+        </table>
+        <div style="color: silver;">Silver text</div>
+        <span style="font-size: 36px;">Large size text</span>
+    </div>
+    
+    <!-- Section 14 -->
+    <div>
+        <h2>Section 14 Content</h2>
+        <img src="image14.jpg">
+        <p>Text paragraph 14.</p>
+        <a href="#">Continue</a>
+        <button>Back</button>
+        <input type="checkbox"> Option AA
+        <input type="radio"> Option BB
+        <ul>
+            <li>List item 40</li>
+            <li>List item 41</li>
+            <li>List item 42</li>
+        </ul>
+        <table>
+            <tr><td>Data 53</td><td>Data 54</td></tr>
+            <tr><td>Data 55</td><td>Data 56</td></tr>
+        </table>
+        <div style="color: gold;">Gold text</div>
+        <span style="font-size: 34px;">Big text</span>
+    </div>
+    
+    <!-- Section 15 -->
+    <div>
+        <h2>Section 15 Content</h2>
+        <img src="image15.jpg">
+        <p>Text paragraph 15.</p>
+        <a href="#">Start</a>
+        <button>End</button>
+        <input type="checkbox"> Option CC
+        <input type="radio"> Option DD
+        <ul>
+            <li>List item 43</li>
+            <li>List item 44</li>
+            <li>List item 45</li>
+        </ul>
+        <table>
+            <tr><td>Data 57</td><td>Data 58</td></tr>
+            <tr><td>Data 59</td><td>Data 60</td></tr>
+        </table>
+        <div style="color: coral;">Coral text</div>
+        <span style="font-size: 32px;">Bigger text</span>
+    </div>
+    
+    <!-- Section 16 -->
+    <div>
+        <h2>Section 16 Content</h2>
+        <img src="image16.jpg">
+        <p>Text paragraph 16.</p>
+        <a href="#"></a>
+        <button>Apply</button>
+        <input type="checkbox"> Option EE
+        <input type="radio"> Option FF
+        <ul>
+            <li>List item 46</li>
+            <li>List item 47</li>
+            <li>List item 48</li>
+        </ul>
+        <table>
+            <tr><td>Data 61</td><td>Data 62</td></tr>
+            <tr><td>Data 63</td><td>Data 64</td></tr>
+        </table>
+        <div style="color: salmon;">Salmon text</div>
+        <span style="font-size: 30px;">Medium-large text</span>
+    </div>
+    
+    <!-- Section 17 -->
+    <div>
+        <h2>Section 17 Content</h2>
+        <img src="image17.jpg">
+        <p>Text paragraph 17.</p>
+        <a href="#">Proceed</a>
+        <button>Decline</button>
+        <input type="checkbox"> Option GG
+        <input type="radio"> Option HH
+        <ul>
+            <li>List item 49</li>
+            <li>List item 50</li>
+            <li>List item 51</li>
+        </ul>
+        <table>
+            <tr><td>Data 65</td><td>Data 66</td></tr>
+            <tr><td>Data 67</td><td>Data 68</td></tr>
+        </table>
+        <div style="color: crimson;">Crimson text</div>
+        <span style="font-size: 28px;">Medium-high text</span>
+    </div>
+    
+    <!-- Section 18 -->
+    <div>
+        <h2>Section 18 Content</h2>
+        <img src="image18.jpg">
+        <p>Text paragraph 18.</p>
+        <a>No link</a>
+        <button></button>
+        <input type="checkbox"> Option II
+        <input type="radio"> Option JJ
+        <ul>
+            <li>List item 52</li>
+            <li>List item 53</li>
+            <li>List item 54</li>
+        </ul>
+        <table>
+            <tr><td>Data 69</td><td>Data 70</td></tr>
+            <tr><td>Data 71</td><td>Data 72</td></tr>
+        </table>
+        <div style="color: indigo;">Indigo text</div>
+        <span style="font-size: 26px;">Standard text</span>
+    </div>
+    
+    <!-- Section 19 -->
+    <div>
+        <h2>Section 19 Content</h2>
+        <img src="image19.jpg">
+        <p>Text paragraph 19.</p>
+        <a href="#">Download</a>
+        <button>Upload</button>
+        <input type="checkbox"> Option KK
+        <input type="radio"> Option LL
+        <ul>
+            <li>List item 55</li>
+            <li>List item 56</li>
+            <li>List item 57</li>
+        </ul>
+        <table>
+            <tr><td>Data 73</td><td>Data 74</td></tr>
+            <tr><td>Data 75</td><td>Data 76</td></tr>
+        </table>
+        <div style="color: violet;">Violet text</div>
+        <span style="font-size: 24px;">Normal text</span>
+    </div>
+    
+    <!-- Section 20 -->
+    <div>
+        <h2>Section 20 Content</h2>
+        <img src="image20.jpg">
+        <p>Text paragraph 20.</p>
+        <a href="#">Share</a>
+        <button>Copy</button>
+        <input type="checkbox"> Option MM
+        <input type="radio"> Option NN
+        <ul>
+            <li>List item 58</li>
+            <li>List item 59</li>
+            <li>List item 60</li>
+        </ul>
+        <table>
+            <tr><td>Data 77</td><td>Data 78</td></tr>
+            <tr><td>Data 79</td><td>Data 80</td></tr>
+        </table>
+        <div style="color: magenta;">Magenta text</div>
+        <span style="font-size: 22px;">Smaller size text</span>
+    </div>
+    
+    <!-- Section 21 -->
+    <div>
+        <h2>Section 21 Content</h2>
+        <img src="image21.jpg">
+        <p>Text paragraph 21.</p>
+        <a href="#"></a>
+        <button>Paste</button>
+        <input type="checkbox"> Option OO
+        <input type="radio"> Option PP
+        <ul>
+            <li>List item 61</li>
+            <li>List item 62</li>
+            <li>List item 63</li>
+        </ul>
+        <table>
+            <tr><td>Data 81</td><td>Data 82</td></tr>
+            <tr><td>Data 83</td><td>Data 84</td></tr>
+        </table>
+        <div style="color: cyan;">Cyan text</div>
+        <span style="font-size: 20px;">Small-medium text</span>
+    </div>
+    
+    <!-- Section 22 -->
+    <div>
+        <h2>Section 22 Content</h2>
+        <img src="image22.jpg">
+        <p>Text paragraph 22.</p>
+        <a href="#">Print</a>
+        <button>Export</button>
+        <input type="checkbox"> Option QQ
+        <input type="radio"> Option RR
+        <ul>
+            <li>List item 64</li>
+            <li>List item 65</li>
+            <li>List item 66</li>
+        </ul>
+        <table>
+            <tr><td>Data 85</td><td>Data 86</td></tr>
+            <tr><td>Data 87</td><td>Data 88</td></tr>
+        </table>
+        <div style="color: aqua;">Aqua text</div>
+        <span style="font-size: 18px;">Tiny-small text</span>
+    </div>
+    
+    <!-- Section 23 -->
+    <div>
+        <h2>Section 23 Content</h2>
+        <img src="image23.jpg">
+        <p>Text paragraph 23.</p>
+        <a>Link missing href</a>
+        <button></button>
+        <input type="checkbox"> Option SS
+        <input type="radio"> Option TT
+        <ul>
+            <li>List item 67</li>
+            <li>List item 68</li>
+            <li>List item 69</li>
+        </ul>
+        <table>
+            <tr><td>Data 89</td><td>Data 90</td></tr>
+            <tr><td>Data 91</td><td>Data 92</td></tr>
+        </table>
+        <div style="color: khaki;">Khaki text</div>
+        <span style="font-size: 16px;">Very small text</span>
+    </div>
+    
+    <!-- Section 24 -->
+    <div>
+        <h2>Section 24 Content</h2>
+        <img src="image24.jpg">
+        <p>Text paragraph 24.</p>
+        <a href="#">Import</a>
+        <button>Refresh</button>
+        <input type="checkbox"> Option UU
+        <input type="radio"> Option VV
+        <ul>
+            <li>List item 70</li>
+            <li>List item 71</li>
+            <li>List item 72</li>
+        </ul>
+        <table>
+            <tr><td>Data 93</td><td>Data 94</td></tr>
+            <tr><td>Data 95</td><td>Data 96</td></tr>
+        </table>
+        <div style="color: plum;">Plum text</div>
+        <span style="font-size: 40px;">Huge text</span>
+    </div>
+    
+    <!-- Section 25 -->
+    <div>
+        <h2>Section 25 Content</h2>
+        <img src="image25.jpg">
+        <p>Text paragraph 25.</p>
+        <a href="#">Reload</a>
+        <button>Reset</button>
+        <input type="checkbox"> Option WW
+        <input type="radio"> Option XX
+        <ul>
+            <li>List item 73</li>
+            <li>List item 74</li>
+            <li>List item 75</li>
+        </ul>
+        <table>
+            <tr><td>Data 97</td><td>Data 98</td></tr>
+            <tr><td>Data 99</td><td>Data 100</td></tr>
+        </table>
+        <div style="color: tan;">Tan text</div>
+        <span style="font-size: 38px;">Giant text</span>
+    </div>
+    
+    <!-- Additional footer content -->
+    <footer>
+        <p>Footer section without proper semantic markup</p>
+        <img src="footer-logo.jpg">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+    </footer>
+    
+</body>
+</html>
