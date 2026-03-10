@@ -170,13 +170,7 @@ export default function AccessibilityErrors() {
         </tbody>
       </table>
 
-      {/* ❌ Error 15: <iframe> with no title attribute */}
-      <iframe
-        src="https://example.com"
-        width="100%"
-        height={120}
-        style={{ border: "1px solid #ccc", marginBottom: "1rem" }}
-      />
+      <iframe src="https://example.com" width="100%" height="500" title="External Content" aria-label="Embedded website content">
 
       <hr />
       <p style={{ fontSize: "0.8rem", color: "#888" }}>
