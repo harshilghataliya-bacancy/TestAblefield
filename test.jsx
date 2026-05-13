@@ -48,6 +48,7 @@ export default function AccessibilityErrors() {
         src="https://placekitten.com/400/200"
         width={400}
         height={200}
+        alt="Placeholder kitten image"
         style={{ display: "block", marginBottom: "1rem" }}
       />
 
