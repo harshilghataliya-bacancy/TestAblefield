@@ -92,7 +92,7 @@ export default function AccessibilityErrors() {
           border: "none",
           cursor: "pointer",
         }}
-      />
+      >Submit</button>
 
       {/* ❌ Error 6: Non-descriptive link text */}
       <a href="https://example.com" style={{ marginRight: "1rem" }}>
