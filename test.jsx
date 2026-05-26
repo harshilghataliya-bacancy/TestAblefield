@@ -71,7 +71,9 @@ export default function AccessibilityErrors() {
 
       {/* ❌ Error 13: <select> with no <label> */}
       <div style={{ marginBottom: "1rem" }}>
+        <label htmlFor="option-select">Select an option</label>
         <select
+          id="option-select"
           value={selectVal}
           onChange={(e) => setSelectVal(e.target.value)}
           style={{ padding: "0.5rem", width: "100%" }}
